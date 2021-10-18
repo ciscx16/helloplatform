@@ -7499,6 +7499,11 @@ PrefabInstance:
       propertyPath: OnHealthSet.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: ChangeHitPointUI
       objectReference: {fileID: 0}
+    - target: {fileID: 114854669915511232, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: gravity
+      value: 38
+      objectReference: {fileID: 0}
     - target: {fileID: 114861759401168572, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
         type: 3}
       propertyPath: m_Enabled

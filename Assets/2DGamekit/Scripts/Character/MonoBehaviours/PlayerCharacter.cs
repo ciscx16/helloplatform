@@ -808,5 +808,10 @@ namespace Gamekit2D
         {
             if (KeyUI.Instance != null) KeyUI.Instance.ChangeKeyUI(m_InventoryController);
         }
+        
+        public void DropKeyInventoryEvent()
+        {
+            if (KeyUI.Instance != null) KeyUI.Instance.RemoveKeyFromUI(m_InventoryController);
+        }
     }
 }

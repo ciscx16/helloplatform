@@ -53,5 +53,13 @@ namespace Gamekit2D
                 m_KeyIconAnimators[i].SetBool(m_HashActivePara, controller.HasItem(keyNames[i]));
             }
         }
+        
+        public void RemoveKeyFromUI(InventoryController controller)
+        {
+            for (int i = 0; i < keyNames.Length; i++)
+            {
+                m_KeyIconAnimators[i].SetBool(m_HashActivePara, false);
+            }
+        }
     }
 }
