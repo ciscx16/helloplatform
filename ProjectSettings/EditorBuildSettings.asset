@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Actuators.unity
     guid: 0a7746117b262094eb1a7f3aed067a26
+  - enabled: 1
+    path: Assets/Level.unity
+    guid: 0466ec6b7f56e904aad296fa92b24a64
   m_configObjects: {}
